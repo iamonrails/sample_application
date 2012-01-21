@@ -5,6 +5,9 @@
 			<%= title %>
 		</TITLE>
 		<%= csrf_meta_tag %>
+		<%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+		<%= stylesheet_link_tag 'blueprint/print',  :media => 'print' %>
+		
 	</HEAD>
 	<BODY>
 		<%= yield %>
